@@ -1,0 +1,79 @@
+1=>
+MongoDB:
+->Didtributed Database(Horizontal Scaling-> dividng into multiple servers)
+	whereas MYSQL is Vertically Scaled.
+-> NOSQL Database
+-> Schemaless
+-> Non Relational
+-> No concept of Joins
+-> Takes data in the form of JSON.
+
+2=>
+JSON:
+	{
+		"name":"Aditya"
+		//comma is invalid.
+	}
+OBJECT:
+	{
+		name:'Aditya',
+		or
+		'name':'Aditya'
+		or
+		name:"Aditya"
+		//comma is valid.
+	}
+
+
+3=>
+	MYSQL			NoSQL
+----------------------------------------------------
+	table		-> 	Collection
+	row		->	Document
+	column		->	field
+	id		->	object id (_id)
+
+4=>
+object id is in the form of BJSON(Binary).
+BJSON - 12 Byte
+	4Byte		4Byte		4Byte
+	Timestamp	Server ID/	random number
+	(Current Time/	Process ID	
+	Date)
+//site: medium
+	4Byte		3Byte  2Byte	
+	Timestamp	  Server ID
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DAY 2:
+
+5=>
+DB->	Colllection->	Document
+
+=> step 1: copy bin location, set path in environment settings.
+
+		Open cmd-> mongod-> server gets on
+	Step 2: open another cmd file-> mongo
+=> show dbs
+	Show default databases present.
+=> use test
+	creates new database test.  //Its not displayed in databases until its empty
+=> db.createCollection('aptech')
+	creates new collection(table). //{ "ok" : 1 } ensures that collection is created
+=> show collection
+	shows collection made
+=>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
