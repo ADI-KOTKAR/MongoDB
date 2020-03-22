@@ -1,0 +1,64 @@
+[
+    {
+    "_id": 001,
+    "name": "Aditya Kotkar",
+    "address": {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra"
+    },
+    "info": "Student"
+    },  
+    {
+        "_id": 002,
+        "name": "Atharva Patnaik",
+        "address": {
+            "city": "Mumbai",
+            "state": "Maharashtra"
+        },
+        "info": "it professional"
+    },
+    {
+        "_id": 003,
+        "name": "Shubham Verma",
+        "address": {
+            "city": "Lucknow",
+            "state": "UP"
+        },
+        "info": "Analyst"
+    },
+    {
+        "_id": 004,
+        "name": "Abhishek Singhal",
+        "address": {
+            "city": "Patna",
+            "state": "Bihar"
+        },
+        "info": "Developer"
+    },
+    {
+        "_id": 005,
+        "name": "Fayzaan Qureshi",
+        "address": {
+            "city": "Gandhinagar",
+            "state": "Gujarat"
+        },
+        "info": "Student"
+    },
+    {
+        "_id": 006,
+        "name": "Sanket Singh",
+        "address": {
+            "city": "Navi Mumbai",
+            "state": "Maharashtra"
+        },
+        "info": "Graduate"
+    }
+]
+
+
+
+
+
+
+
+
